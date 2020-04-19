@@ -1,0 +1,284 @@
+*{
+  box-sizing: border-box;
+}
+
+/*====Body====*/
+
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(to top,#f8f9fa  83%,#ffffff 100%);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+
+/*====Header====*/
+
+
+header {
+  text-align: right;
+  line-height: 2;
+  margin: .5rem;
+  margin-left: 11rem;
+}
+
+.upper-nav-bar {
+  font-size: .75rem;
+}
+
+.nav-bar {
+  font-size: .8rem;
+  margin-bottom: -.5rem;
+  margin-top: 1rem;
+}
+
+input {
+  background-color: transparent;
+}
+
+.left-nav li {
+  display: inline-block;
+  border-left: solid 1px #a7d7f9;
+  float: left;
+  padding: 0 .3rem;
+  
+}
+
+.right-nav li {
+  display: inline-block;
+  border-left: solid 1px #a7d7f9;
+  padding: 0 .3rem;
+}
+
+.article, .read {
+  background-color: white;
+}
+
+.read {
+  margin-right: -.2rem;
+}
+
+/*====Side-bar====*/
+
+.side-bar {
+  position: absolute;
+  font-size: .75rem;
+  line-height: 1.5;
+}
+
+.side-bar ul {
+  margin:1.5rem;
+}
+
+.wiki-logo {
+  height: 140px;
+  margin: 1.5rem;
+  margin-top: -3.5rem;
+  margin-bottom: 0;
+}
+
+.side-bar p {
+  border-bottom: solid 1px darkgray;
+  margin: .2rem 0
+}
+
+.right-link {
+  color: darkgray;
+  float: right;
+}
+
+/*====Content====*/
+
+.container {
+  margin-left: 11rem;
+  padding: 0 1rem;
+  border: solid 1px #a7d7f9;
+  border-right: none;
+  background-color: white;
+}
+
+h1 {
+  font-size: 2rem;
+  font-style: italic;
+  font-family: serif;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+h1::after{
+  display: inline-block;
+  content: "";
+  background-color: darkgray;
+  height: 1px;
+  width: 100%;
+  vertical-align: middle;
+  margin-top: -1.7rem;
+}
+
+h6 {
+  font-size: .8rem;
+  margin-top: -1.8rem;
+  margin-bottom: 2rem;
+}
+
+.table {
+  float: right;
+  margin: 1rem;
+  margin-right: 0;
+  font-size: .8rem;
+  line-height: 2;
+  border: solid 1px darkgray;
+  background-color: #f8f9fa;
+  padding: 0 1rem;
+
+}
+
+.table-cover {
+  width: 220px
+}
+
+.first-caption {
+  font-weight: 700;
+  font-style: italic;
+  font-size: .875rem;
+}
+
+.fig-cap {
+  font-size: .8rem;
+  margin-top: -.8rem
+}
+
+.container p {
+  font-size: .875rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.bold {
+  font-weight: 700;
+  font-style: italic;
+}
+
+h2 {
+  font-family: serif;
+  font-size: 1.3rem;
+  border-bottom: solid 1px darkgray;
+  padding-bottom: .2rem;
+  margin-bottom: 1rem;
+}
+
+
+
+h3 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.ol-nav p {
+  margin: 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+.ol-nav {
+  padding: .5rem;
+  display: inline-block;
+  line-height: 1.6;
+  font-size: .875rem;
+  border: solid 1px darkgray;
+  background-color: #f8f9fa;
+  margin-bottom: 1.5rem;
+  margin-top: -1.5rem;
+}
+
+.game-menu {
+  margin-left: 2rem;
+}
+
+.game-photo {
+  float: left;
+  width: 177px;
+  border: solid 1px darkgray;
+  background-color: #f8f9fa;
+  margin: 1rem;
+  margin-left: 0;
+  margin-top: 0;
+  
+  
+  
+  
+}
+
+.game-shot {
+  width: 100%;
+  padding: .3rem;
+}
+
+figcaption {
+  font-size: .75rem;
+  margin-top: -.5rem;
+  line-height: 1.1rem;
+  padding: .3rem;
+}
+
+.references {
+  font-size: .83rem;
+  line-height: 1.5;
+  margin-top: -.8rem;
+  list-style: decimal;
+  margin-left: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.external-links {
+  font-size: .875rem;
+  line-height: 1.5rem;
+  margin: 1rem ;
+  list-style: disc;
+}
+
+.link-collection {
+  font-size: .875rem;
+  line-height: 1.5;
+  margin: 1rem;
+  border: solid 1px darkgray;
+  background-color: #f8f9fa;
+  padding: .5rem;
+}
+
+.link-collection a {
+  border-left: solid 1px darkgray;
+  padding-left: .5rem;
+}
+
+/*====Footer====*/
+
+.footer {
+  display: block;
+  margin-left: 10rem;
+  padding-left: 1rem;
+  font-size: .7rem;
+  line-height: 1.4;
+  background-color: #f8f9fa;
+  
+}
+
+.first-p {
+  margin: 1rem 0;
+}
+
+footer p {
+  margin-bottom: 1rem;
+}
+
+footer a {
+  line-height: 3;
+  margin: 0 .3rem;
+}
